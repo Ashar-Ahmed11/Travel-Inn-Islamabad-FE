@@ -1,0 +1,239 @@
+@font-face {
+    font-family: lobster;
+    src: url(./Lobster-Regular.ttf);
+}
+
+.two {
+    align-items: center;
+}
+
+/* 
+.nav-item>a {
+    color: white !important;
+   
+    
+} */
+
+
+
+
+.ratings {
+    margin-right: 10px;
+}
+
+.ratings i {
+
+    color: #cecece;
+    font-size: 15px;
+}
+
+.rating-color {
+    color: #fbc634 !important;
+}
+
+.spinner-grow {
+    --bs-spinner-width: auto !important;
+    --bs-spinner-height: auto !important;
+    --bs-spinner-vertical-align: -0.125em;
+    --bs-spinner-animation-speed: 1s !important;
+    --bs-spinner-animation-name: spinner-grow;
+    background-color: white !important;
+    opacity: 0;
+}
+
+.module {
+    position: relative;
+}
+
+.module::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://image.b2bhotels.net/138/1559066368thumbnail12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5);
+}
+
+.module-inside {
+    /* This will make it stack on top of the ::before */
+    position: relative;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: -4px;
+    right: 9px;
+    font-size: 50px;
+    z-index: 99999999;
+    border-radius: 100%;
+}
+
+.review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important;
+}
+
+.small-ratings i {
+    color: #cecece;
+}
+
+.review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.carousel-caption h1 {
+    font-weight: bold;
+    font-size: 8vw;
+}
+
+.card-header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #cb1e31;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+.card {
+    box-shadow: 2px 2px 5px grey;
+}
+
+.icon {
+    background-color: #cb1e31;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.welcome-header {
+    color: #cb1e31;
+    font-weight: bold;
+    margin: 30px;
+    margin-bottom: 0;
+    font-size: 8vw;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #cb1e31;
+}
+
+.welcome-text {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #cb1e31;
+    font-size: 20px;
+    padding: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.featured-text {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #cb1e31;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.three {
+    background-color: #cb1e31;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.c-head {
+    display: flex;
+    justify-content: center;
+    background-color: #cb1e31;
+    color: white;
+}
+
+.c-head>h2 {
+    font-weight: bold;
+}
+
+.btn-my {
+    background-color: #cb1e31;
+    color: white;
+}
+
+.card-price {
+    color: #cb1e31;
+}
+
+.card-price>h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: 3px solid #fff;
+}
+
+/* html::-webkit-scrollbar {
+    width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #cb1e31;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #cb1e31;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+    background: #cb1e31;
+    border-radius: 10px;
+} */
+
+.logo {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 14px 0 #00000033;
+}
+
+.logo>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
