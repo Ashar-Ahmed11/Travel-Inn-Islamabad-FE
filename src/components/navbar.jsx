@@ -9,7 +9,7 @@ export default function Navbar() {
             <nav class=" navbar-expand-lg navbar">
                 <div class="container ">
                     <Link class="navbar-brand" onClick={()=>{window.scrollTo({ behavior: 'smooth', top: 0, left: 0 })}} to="/">
-                        <img src={`https://travelinnislamabad.com/wp-content/uploads/2024/07/WhatsApp_Image_2024-07-04_at_9.42-1.png`} height={'43.5'} />
+                        <img src={logo} height={'43.5'} />
                     </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,6 +26,9 @@ export default function Navbar() {
                                 </li>
                                 <li class="mx-3 nav-item">
                                     <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/">Rooms</Link>
+                                </li>
+                                <li class="mx-3 nav-item">
+                                    <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/tour-guide">Tour Guide</Link>
                                 </li>
                                 <li class="mx-3 nav-item">
                                     <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/contact-us">Contact Us</Link>

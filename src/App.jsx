@@ -22,6 +22,7 @@ import imageSix from './components/images/ImageSix.png'
 import GroupPackage from './components/grouppackage.jsx'
 import RegularUmrah from './components/home copy.jsx'
 import GroupUmrah from './components/home copy 2.jsx'
+import TourGuide from './components/tourGuide.jsx'
 import ContactUs from './components/contactus.jsx'
 import AboutUs from './components/contactus copy.jsx'
 import RoomPackage from './components/roompackage.jsx'
@@ -30,6 +31,7 @@ import { useContext } from 'react'
 import Admin from './components/admin.jsx'
 import Dashboard from './components/dashboard.jsx'
 import MetaDecorator from './components/metadecorator.jsx'
+import Logo from './components/LOGO.png'
 // import Logo from './components/images/LOGO.png'
 
 const importAll = (r) => r.keys().map(r);
@@ -350,7 +352,7 @@ export default function App() {
         alignItems: "center"     // Center vertically
       }} className=" w-100 h-100 d-flex justify-content-center align-items-center">
         <div className='d-flex flex-column justify-content-center align-items-center'>
-          <img className='spinner-grow' src={"https://travelinnislamabad.com/wp-content/uploads/2024/07/WhatsApp_Image_2024-07-04_at_9.42-1.png"} />
+          <img className='spinner-grow' src={Logo} />
         </div>
       </div>
       }
@@ -392,6 +394,10 @@ export default function App() {
         </Route>
         <Route exact path="/admin">
           <Admin />
+          {/* <UnderConstruction/> */}
+        </Route>
+        <Route exact path="/tour-guide">
+          <TourGuide />
           {/* <UnderConstruction/> */}
         </Route>
         <Route exact path="/about-us">
