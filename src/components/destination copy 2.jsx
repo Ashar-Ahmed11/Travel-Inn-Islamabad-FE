@@ -15,54 +15,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
     <div className='container p-4 pt-5'>
       <div className='pb-3'>
         <h2 className='pb-3' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#ffd054' }}>Our Featured Rooms</h2>
-        {/* <div className="d-flex justify-content-center">
-          <div>
-
-            <Button onClick={() => packageType !== "normal" && setPackageType("normal")} style={{ color: packageType == "normal" ? "white" : "#BB332F", backgroundColor: packageType == "normal" ? "#BB332F" : "white", border: `1px solid #BB332F` }} className="btn my-2 mx-2">Umrah Packages</Button>
-
-          </div>
-          <div>
-
-            <Button onClick={() => packageType == "normal" && setPackageType("fixed")} style={{ color: packageType !== "normal" ? "white" : "#BB332F", backgroundColor: packageType !== "normal" ? "#BB332F" : "white", border: `1px solid #BB332F` }} className="btn my-2">Group Packages</Button>
-
-          </div>
-        </div> */}
-
-        {/* <div className="row">
-
-          <Link onClick={() => window.scrollTo({ behavior: 'smooth', top: 0, left: 0 })} className="col-12 col-md-6 p-2 " to={`/regular-umrah`}>
-            <div style={{ height: "300px" }} className="card shadow-none border-0 rounded-3">
-
-              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[3].image}`} alt="" />
-
-              <div style={{ backgroundColor: "rgba(0,0,0,0.3)" }} className="rounded-3 position-absolute top-0 h-100 w-100">
-                <div className="position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
-
-                  <h1 className="text-center text-light"><b>Regular Umrah</b></h1>
-                </div>
-              </div>
-            </div>
-
-          </Link>
-
-          <Link onClick={() => window.scrollTo({ behavior: 'smooth', top: 0, left: 0 })} className="col-12 col-md-6 p-2 " to={`/group-umrah`}>
-            <div style={{ height: "300px" }} className="card shadow-none border-0 rounded-3">
-
-              <img className='position-relative w-100 h-100 rounded-3' style={{ objectFit: 'cover' }} src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://e-safarnet.web.app${theArr[1].image}`} alt="" />
-
-              <div style={{ backgroundColor: "rgba(0,0,0,0.3)" }} className="rounded-3 position-absolute top-0 h-100 w-100">
-                <div className="position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
-
-                  <h1 className="text-center text-light"><b>Fixed Departure</b></h1>
-                </div>
-              </div>
-            </div>
-
-          </Link>
-
-          <div></div>
-        </div> */}
-
+       
 
         <div className="row">
           {theArr.map((e,i)=>{

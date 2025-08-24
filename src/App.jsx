@@ -42,6 +42,10 @@ const executiveImages = importAll(require.context('./components/roomImages/execu
 export default function App() {
   const context = useContext(AppContext)
   const { appLoader, editorLoader, siteData } = context
+
+
+  console.log(siteData);
+  
   // console.log(world);
 
   // const body = document.body;
@@ -325,19 +329,22 @@ export default function App() {
 
   console.log(appLoader);
 
+
+ 
+
   // console.clear()
   return (
     <div>
       {siteData && <MetaDecorator title={siteData.title} description={siteData.description} />}
       {(window.location.pathname !== "/admin" && window.location.pathname !== "/admin-dashboard") && <Navbar />}
-      <div hidden={location.pathname == '/admin' && 'true' || location.pathname == '/admin-dashboard' && 'true'}>
+      {siteData.phone && <div hidden={location.pathname == '/admin' && 'true' || location.pathname == '/admin-dashboard' && 'true'}>
         <div className='whatsapp'>
         {/* +92-314-5167255 */}
         {/* 0349 5625247 */}
 
-          <a target="_blank" aria-label="Chat on WhatsApp" href="https://wa.me/923495625247?text=How%20can%20I%20book%20a%20guest%20house%3F"> <i style={{ color: '#0dc143' }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
+          <a target="_blank" aria-label="Chat on WhatsApp" href={`https://wa.me/${siteData.phone.replace("0","92").replace(" ","")}?text=How%20can%20I%20book%20a%20guest%20house%3F`}> <i style={{ color: '#0dc143' }} className="fa fa-whatsapp" aria-hidden="true"></i> </a>
         </div>
-      </div>
+      </div>}
       {/* <Navbar /> */}
       {appLoader && <div style={{
         zIndex: 99999,           // Ensure the z-index is high enough
