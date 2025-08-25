@@ -32,6 +32,7 @@ import Admin from './components/admin.jsx'
 import Dashboard from './components/dashboard.jsx'
 import MetaDecorator from './components/metadecorator.jsx'
 import Logo from './components/LOGO.png'
+import CarRental from './components/carRental.jsx'
 // import Logo from './components/images/LOGO.png'
 
 const importAll = (r) => r.keys().map(r);
@@ -405,6 +406,10 @@ export default function App() {
         </Route>
         <Route exact path="/tour-guide">
           <TourGuide />
+          {/* <UnderConstruction/> */}
+        </Route>
+        <Route exact path="/car-rental">
+          <CarRental />
           {/* <UnderConstruction/> */}
         </Route>
         <Route exact path="/about-us">

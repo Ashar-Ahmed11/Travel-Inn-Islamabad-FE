@@ -63,9 +63,9 @@ export default function Home({ theArr, anotherArr }) {
       <Carousal />
       <div className="container mt-4">
         <div>
-          <h2 className='pb-3' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#ffd054' }}>Services We Offer</h2>
+          <h2 className='py-3' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#ffd054' }}>Services We Offer</h2>
           <div className="row justify-content-center">
-            <div className="col-md-4 col-12">
+            <div className="my-2 col-md-4 col-12">
               <div class="card rounded-4 h-100 overflow-hidden shadow-sm"
               // style={{ borderColor: "#ffd054" }}
               >

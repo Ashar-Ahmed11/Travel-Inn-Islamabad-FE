@@ -31,6 +31,9 @@ export default function Navbar() {
                                     <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/tour-guide">Tour Guide</Link>
                                 </li>
                                 <li class="mx-3 nav-item">
+                                    <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/car-rental">Car Rental</Link>
+                                </li>
+                                <li class="mx-3 nav-item">
                                     <Link  style={{color:"#ffd054",fontWeight:"bold"}} onClick={() => {window.scrollTo({ behavior: 'smooth', top: 0, left: 0 });refer.current.click()}} class="nav-link active" aria-current="page" to="/contact-us">Contact Us</Link>
                                 </li>
                                 <li class="mx-3 nav-item">
