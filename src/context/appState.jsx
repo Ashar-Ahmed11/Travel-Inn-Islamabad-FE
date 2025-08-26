@@ -334,7 +334,7 @@ const AppState = (props) => {
     // 
 
 
-    //   console.clear()
+      console.clear()
     return (
         <AppContext.Provider value={{deleteRoom,createRoom,editRooms,obj,setobj,allPackageData,roomButtonRef,setRoomSelectedImage,roomImageCloudinary,roomSelectedImage,editorLoader,setCoverImages,editImages,setImageLoader,selectedImage,setSelectedImage,modalRef, editLoader, siteData, world, signIn, coverImages, appLoader, adminToken, admin, setAdminToken, editSiteInfo, setSiteData,cloudinary }}>
             {props.children}

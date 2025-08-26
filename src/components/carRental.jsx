@@ -35,10 +35,10 @@ const CarRental = () => {
         <div>
             <ContactUsCarousal upackage={"Car Rental"} image={tourGuide} />
             <div className="container my-5">
-                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Pakistan Top Rated Travel & Tour Guide</h2>
+                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Pakistan Top Rated Car Rental – Travel Inn Islamabad</h2>
                 {/* <p style={{ opacity: 0.8 }}><b style={{ color: "#BB332F" }}>e-Safar Travel & Tours</b> are one of the leading Tour Operators in Pakistan, providing comprehensive services for groups and individuals from and to the country. We provide you with the flexibility of purchasing a customized independent tour or a packaged group of departure, and service all of your travel & booking questions through our expert consultant staff at all international & domestic tourist attraction locations, all major cities including Northern Areas of Pakistan. Travel includes activities like international & domestic holiday tour programs for honeymoon couples, families, students, large groups, national & multinational companies, foreigners and Pakistan’s living abroad.</p> */}
                 {/* <h2 className='my-4' style={{ fontFamily: 'Montserrat', fontWeight: "bold" }}>Contact Details</h2> */}
-                <p>Full Pakistan tour packages let you see beautiful wildlife, snow-covered hills, and Alpine lakes.Explore our Pakistan Tour options with team Pakistan Travel Guide to find the perfect trip for you, whether you want to do something exciting or just take it easy. You can visit cultural places, explore the hidden beauty of Skardu, go on a trek to Gondogoro K2, or take a relaxing family tour package. Our 2025 tour options for Pakistan are the best you can find.Pakistan tour packages now cost more than they did in 2025.
+                <p>Full Pakistan car rental packages let you travel comfortably through beautiful wildlife regions, snow-covered hills, and Alpine lakes. Explore our Pakistan car rental options with Travel Inn Islamabad to find the perfect ride for your journey, whether you want something exciting or just prefer a smooth, relaxed trip. You can rent a car to visit cultural places, explore the hidden beauty of Skardu, drive on a trek route toward Gondogoro K2, or enjoy a convenient family tour in style. Our 2025 car rental options in Pakistan are the best you can find. Please note, rental costs in 2025 are higher compared to previous years.
                 </p>
             </div>
             <div className="container">
@@ -47,23 +47,23 @@ const CarRental = () => {
             <CarCards />
 
             <div className="container">
-                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>You can find the best tour options in Pakistan through Travel Inn Islamabad in 2025.</h2>
+                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Find the Best Car Rental Options in Pakistan with Travel Inn Islamabad – 2025</h2>
                 <p>
 
-                    You can get Gilgit Hunza, Skardu, Chitral, Naran Kaghan, Neelum Valley, Azad Kashmir, Swat Kalam, and Murree Galayat tour packages for 2025 with the most up-to-date costs. Travel Inn Islamabad is an easy-to-use travel website that gives you information about Pakistan Tour Packages, the weather, road conditions, traffic, and the emergency phone numbers of government officials in case of an emergency.
+                    You can get the best car rental services in Pakistan through Travel Inn Islamabad in 2025. Choose from rentals for Gilgit Hunza, Skardu, Chitral, Naran Kaghan, Neelum Valley, Azad Kashmir, Swat Kalam, and Murree Galayat with the most up-to-date prices. Travel Inn Islamabad is an easy-to-use car rental platform that provides details about available vehicles, road conditions, traffic updates, fuel stations, and even emergency contact numbers for a worry-free trip.
 
 
                 </p>
 
                 <p>
 
-                    Want to know where to go on vacation next year in Pakistan? Looking for the best places to go on vacation in Pakistan on the internet from your job or home is giving you a lot to think about. Don't say anything; Travel Inn Islamabad is here to help you figure it out.
+                   Not sure which vehicle suits your next vacation in Pakistan? Searching endlessly online for the best car rental in Pakistan from your office or home can feel overwhelming. Don’t worry—Travel Inn Islamabad is here to guide you.
 
 
                 </p>
                 <p>
 
-                    At Travel Inn Islamabad, our job is to help you make the best choice and pick the best Pakistan tour options for your needs and budget.
+                   At Travel Inn Islamabad, our mission is to help you make the smartest choice and book the most reliable car rental option that matches your travel needs and budget.
 
 
                 </p>
@@ -83,8 +83,8 @@ const CarRental = () => {
                                 {/* <p className='pt-4 display-1 h1' ><i style={{ color: '#ffd054' }} class={`fa-solid fa-user fa-xl`}></i></p> */}
                                 {/* </div> */}
                                 <div class="card-body d-flex flex-column text-center">
-                                    <h2 style={{ color: '#ffd054' }} class="card-title h5">Private Guide                </h2>
-                                    <p class="card-text">Personalized tours tailored to your interests and schedule.</p>
+                                    <h2 style={{ color: '#ffd054' }} class="card-title h5">Wide Range of Vehicles</h2>
+                                    <p class="card-text">From economy cars to luxury rides, choose the perfect vehicle for your journey.</p>
                                     <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}>
                                         {/* <Link ref={quoteRef} style={{ borderColor: '#ffd054' }} to={'/contact'} onClick={() => window.scrollTo({ top: 0, bottom: 0, behavior: 'smooth' })} class="btn btn-primary">Get A Quote</Link> */}
                                     </div>
@@ -101,10 +101,7 @@ const CarRental = () => {
                                 {/* </div> */}
                                 <div class="card-body d-flex flex-column text-center">
                                     <h2 style={{ color: '#ffd054' }} class="card-title h5">Affordable Price                </h2>
-                                    <p class="card-text">Exceptional value without compromising on quality.
-
-
-
+                                    <p class="card-text">Budget-friendly rentals with no hidden charges.
                                     </p>
                                     <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}>
                                         {/* <span style={{ borderColor: '#ffd054' }} onClick={() => quoteRef.current.click()} class="btn btn-primary">Get A Quote</span> */}
@@ -124,8 +121,8 @@ const CarRental = () => {
                   </div> */}
                                 {/* </div> */}
                                 <div class="card-body d-flex flex-column text-center">
-                                    <h2 style={{ color: '#ffd054' }} class="card-title h5">Great Support                </h2>
-                                    <p class="card-text">Dedicated assistance available around the clock.</p>
+                                    <h2 style={{ color: '#ffd054' }} class="card-title h5">24/7 Support                </h2>
+                                    <p class="card-text">Round-the-clock customer service to assist you anytime, anywhere.</p>
 
                                     {/* <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}> */}
                                     {/* <span style={{ borderColor: '#ffd054' }} onClick={() => quoteRef.current.click()} class="btn btn-primary">Get A Quote</span> */}
@@ -144,12 +141,12 @@ const CarRental = () => {
 
 
 
-                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Pakistan Affordable Tour Packages
+                <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Affordable Car Rental in Pakistan
 
                 </h2>
 
                 <p>
-                    At Travel Inn Islamabad, our mission is simple: to provide unparalleled hospitality and create memorable experiences for every guest. We are dedicated to ensuring that every stay is comfortable, enjoyable, and tailored to your needs. From the moment you step into our hotel, you will be greeted with genuine smiles and attentive service.
+                    At Travel Inn Islamabad, we strive to deliver comfort, reliability, and value with every ride. Our goal is to make your travel experience hassle-free, affordable, and customized to your needs. From booking to drop-off, we ensure a smooth journey backed by friendly service and dependable vehicles.
 
 
                 </p>
@@ -165,7 +162,7 @@ const CarRental = () => {
                     <div className="keen-slider__slide number-slide">
                         <div style={{ backgroundColor: '#ffffff' }} className="card h-100 border-0 shadow-0">
                             <div className="card-body ">
-                                <p className='text-center'><i style={{ fontSize: "25px" }} class="fa fa-quote-left px-2" aria-hidden="true"></i>I had a great time in Hunza Valley with Travel Inn Islamabad. The tour guide was friendly and knew a lot about the area. The scenery was beautiful, and the culture experiences made the trip unforgettable. Very strongly suggested! <i style={{ fontSize: "25px" }} class="fa fa-quote-right px-2" aria-hidden="true"></i></p>
+                                <p className='text-center'><i style={{ fontSize: "25px" }} class="fa fa-quote-left px-2" aria-hidden="true"></i>From airport pickup to long-distance travel, everything was seamless. The driver was punctual and friendly, and the ride was extremely comfortable. Truly professional service! <i style={{ fontSize: "25px" }} class="fa fa-quote-right px-2" aria-hidden="true"></i></p>
                                 <p style={{ fontWeight: "bolder", fontSize: "25px" }} className="text-center">
                                     <div className="ratings">
                                         {/* <span className="mx-1">4.5</span> */}
@@ -176,7 +173,7 @@ const CarRental = () => {
                                         {/* <i class="fa fa-star"></i> */}
                                     </div>
                                     <span style={{ color: color }}>
-                                        Bilal Ali
+                                        Zohair Ahmed
                                         <span style={{ fontSize: "15px" }} className="text-secondary d-block">Tourist</span>
                                     </span>
                                 </p>
@@ -188,7 +185,7 @@ const CarRental = () => {
                         <div style={{ backgroundColor: '#ffffff' }} className="card h-100 border-0 shadow-0">
                             <div className="card-body ">
                                 <p className='text-center'><i style={{ fontSize: "25px" }} class="fa fa-quote-left px-2" aria-hidden="true"></i>
-                                    Travel Inn Islamabad helped me have a great trip to Skardu.  The guide did a great job, the mountains and lakes were beautiful, and the whole trip felt like it had been carefully planned.  An experience I will never forget!
+                                    Travel Inn Islamabad made my trip so smooth! The car was spotless, the driver was professional, and the rates were very reasonable. Highly recommended for anyone visiting Islamabad!
                                     <i style={{ fontSize: "25px" }} class="fa fa-quote-right px-2" aria-hidden="true"></i></p>
                                 <p style={{ fontWeight: "bolder", fontSize: "25px" }} className="text-center">
                                     <div className="ratings">
@@ -200,7 +197,7 @@ const CarRental = () => {
                                         {/* <i class="fa fa-star"></i> */}
                                     </div>
                                     <span style={{ color: color }}>
-                                        Junaid Ahmed
+                                        Ahmed R.
                                         <span style={{ fontSize: "15px" }} className="text-secondary d-block">Tourist</span>
                                     </span>
                                 </p>
@@ -211,7 +208,7 @@ const CarRental = () => {
                         <div style={{ backgroundColor: '#ffffff' }} className="card h-100 border-0 shadow-0">
                             <div className="card-body ">
                                 <p className='text-center'><i style={{ fontSize: "25px" }} class="fa fa-quote-left px-2" aria-hidden="true"></i>
-                                    My trip to Naran Valley will never be forgotten thanks to Travel Inn Islamabad.  The views were beautiful, the guide was helpful, and the whole trip was easy and fun.  I'd love to take another trip with them!
+                                    I booked an SUV for my family tour to Hunza. The vehicle was comfortable and well-maintained, and their 24/7 support gave me complete peace of mind throughout the journey.
 
                                     <i style={{ fontSize: "25px" }} class="fa fa-quote-right px-2" aria-hidden="true"></i></p>
                                 <p style={{ fontWeight: "bolder", fontSize: "25px" }} className="text-center">
@@ -224,7 +221,8 @@ const CarRental = () => {
                                         {/* <i class="fa fa-star"></i> */}
                                     </div>
                                     <span style={{ color: color }}>
-                                        Sidra Khalil</span>
+                                        Sana Malik
+                                        </span>
                                     <span style={{ fontSize: "15px" }} className="text-secondary d-block">Tourist</span>
                                 </p>
 
@@ -235,7 +233,7 @@ const CarRental = () => {
                         <div style={{ backgroundColor: '#ffffff' }} className="card h-100 border-0 shadow-0">
                             <div className="card-body ">
                                 <p className='text-center'><i style={{ fontSize: "25px" }} class="fa fa-quote-left px-2" aria-hidden="true"></i>
-                                    Travel Inn Islamabad's trip of the Swat Valley was great.  Everything went smoothly, the guide was nice, and the hills and rivers were beautiful.  That was truly a wonderful trip!
+                                    Best car rental service in Islamabad! Easy booking process, polite staff, and no hidden charges. I’ll definitely choose Travel Inn Islamabad for all my future travels.
 
                                     <i style={{ fontSize: "25px" }} class="fa fa-quote-right px-2" aria-hidden="true"></i></p>
                                 <p style={{ fontWeight: "bolder", fontSize: "25px" }} className="text-center">
@@ -248,7 +246,7 @@ const CarRental = () => {
                                         {/* <i class="fa fa-star"></i> */}
                                     </div>
                                     <span style={{ color: color }}>
-                                        Asghar Ghaffar
+                                        Imran K.
                                     </span>
                                     <span style={{ fontSize: "15px" }} className="text-secondary d-block">Tourist</span>
                                 </p>
@@ -263,7 +261,8 @@ const CarRental = () => {
                 <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Northern Pakistan Tours   </h2>
 
                 <p>
-                    We offer high-altitude treks and cultural and historical tours as part of our Northern Pakistan tour plan. Gilgit Baltistan is the most popular and loved vacation spot in northern Pakistan. Famous villages in Northern Pakistan that we include in our Northern tour packages are Hunza and Skardu, along with other places. In Hunza, we visit the high Khunjerab Pass and the lake Attabad, among other things. In Skardu Valley, we visit Khaplu, Upper Kachura, Shigar Valley, and other places of interest. With our package deal, you can go on a trip to Northern Pakistan. Just <a style={{ color: '#ffd054' }} href="https://wa.me/923495625247" target='_blank'>get in touch with us today.</a>
+                    Discover the breathtaking beauty of Northern Pakistan with our carefully designed tour packages. From high-altitude treks to cultural and historical explorations, our Northern tours cover the region’s most enchanting destinations. Gilgit-Baltistan, the heart of northern tourism, offers unmatched charm with Hunza’s stunning Khunjerab Pass and Attabad Lake, while Skardu Valley features Khaplu, Upper Kachura, Shigar Valley, and more. With Travel Inn Islamabad, every trip to Northern Pakistan is an unforgettable experience. <a style={{ color: '#ffd054' }} href="https://wa.me/923495625247" target='_blank'>Book your package today</a> and let us take you on a journey of adventure and discovery.
+
 
 
                 </p>
