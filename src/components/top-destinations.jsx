@@ -127,7 +127,7 @@ const TopDestinations = () => {
             <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
             // style={{ borderColor: "#ffd054" }}
             >
-              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://www.blizin.com/public/images/uploads/tourpackage/6-days-5-nights-standard-tour-package-to-swat-valley-TP-27-1594898843.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://flypakistan.pk/assets/img/attractions/Ayubia.png`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
               <div class="px-0 card-body d-flex flex-column">
                 <h2 style={{ fontWeight: "bold" }} class="h4">Murree</h2>
@@ -153,7 +153,7 @@ const TopDestinations = () => {
             <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
             // style={{ borderColor: "#ffd054" }}
             >
-              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://www.blizin.com/public/images/uploads/tourpackage/6-days-5-nights-standard-tour-package-to-swat-valley-TP-27-1594898843.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/7a/43/5b/gurez-valley-kel-to-taobat.jpg?w=1200&h=-1&s=1`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
               <div class="px-0 card-body d-flex flex-column">
                 <h2 style={{ fontWeight: "bold" }} class="h4">Kashmir</h2>
@@ -179,7 +179,7 @@ const TopDestinations = () => {
             <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
             // style={{ borderColor: "#ffd054" }}
             >
-              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://www.blizin.com/public/images/uploads/tourpackage/6-days-5-nights-standard-tour-package-to-swat-valley-TP-27-1594898843.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://flypakistan.pk/assets/img/attractions/Naran%20Kaghan.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
               <div class="px-0 card-body d-flex flex-column">
                 <h2 style={{ fontWeight: "bold" }} class="h4">Naran</h2>
