@@ -14,10 +14,12 @@ import centerImage from './roomImages/executive/WhatsApp Image 2025-01-17 at 11.
 import { useKeenSlider } from 'keen-slider/react.js'
 import { useContext } from 'react'
 import AppContext from '../context/appContext.jsx'
+import TopDestinations from './top-destinations.jsx'
+import CarCards from './carCards.jsx'
 
 export default function Home({ theArr, anotherArr }) {
   const theData = useContext(AppContext)
-  const { allPackageData } = theData
+  const { allPackageData ,siteData} = theData
   const animation = { duration: 5000, easing: (t) => t }
   const color = "#ffd054"
   const [testimonialSliderRef] = useKeenSlider({
@@ -63,72 +65,101 @@ export default function Home({ theArr, anotherArr }) {
       <Carousal />
       <div className="container mt-4">
         <div>
-          <h2 className='py-3' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#ffd054' }}>Services We Offer</h2>
-          <div className="row justify-content-center">
-            <div className="my-2 col-md-4 col-12">
-              <div class="card rounded-4 h-100 overflow-hidden shadow-sm"
+          <h2 className='py-3 px-4' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: '#ffd054' }}>Travelling Services We Offer</h2>
+          <div className="row p-4">
+            <div className="col-md-4 col-12">
+              <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div className='pb-3 pt-4 d-flex justify-content-center' style={{ borderRadius: '100%' }}>
-                <p className='pt-4 display-1 h1' ><i style={{ color: '#ffd054' }} class={`fa fa-compass fa-xl`}></i></p>
-                </div>
-                <div class="card-body d-flex flex-column text-center">
-                  <h2 style={{ color: '#ffd054' }} class="card-title h5">Tour Guide</h2>
-                  <p class="card-text">Personalized tours tailored to your interests and schedule.</p>
-                  <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}>
-                    {/* <Link ref={quoteRef} style={{ borderColor: '#ffd054' }} to={'/contact'} onClick={() => window.scrollTo({ top: 0, bottom: 0, behavior: 'smooth' })} class="btn btn-primary">Get A Quote</Link> */}
+                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/5c/cd/82/guest-at-northern-areas.jpg?w=1200&h=900&s=1`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+
+                <div class="px-0 card-body d-flex flex-column">
+                  <h2 style={{ fontWeight: "bold" }} class="h4">Tour Guide</h2>
+                  <div className="d-flex mb-2">
+                    {/* <div className="ratings">
+                    <span className="mx-1">4.5</span>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                  </div> */}
+                  </div>
+                  <p class="card-text">Travel Inn Islamabad offer professional tour guides, beautiful scenery, and culture experiences that will make your trip unforgettable.</p>
+                  {/* <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">{`Rs.${e.name=="Standard Package"?"7500":e.name=="Deluxe Package"?"8500":e.name=="Executive Package"?"9500":""}`}</h2>+Tax</p> */}
+                  <div className='d-flex justify-content-start align-items-end' style={{ flex: 1 }}>
+                    {siteData.phone && <a target='_blank' href={`https://wa.me/${siteData.phone.replace("0", "92").replace(" ", "")}?text=How%20can%20I%20book%20a%20guest%20house%3F`} ><span style={{ backgroundColor: "#ffd054", color: "white" }} class="btn">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i>                  </span></a>}
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12 my-2">
-              <div class="card rounded-4 h-100 overflow-hidden shadow-sm"
+            <div className="col-md-4 col-12">
+              <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div className='pb-3 pt-4 d-flex justify-content-center' style={{ borderRadius: '100%' }}>
-                <p className='pt-4 display-1 h1' ><i style={{ color: '#ffd054' }} class={`fa fa-home fa-xl`}></i></p>
-                </div>
-                <div class="card-body d-flex flex-column text-center">
-                  <h2 style={{ color: '#ffd054' }} class="card-title h5">Guest House</h2>
-                  <p class="card-text">Exceptional value without compromising on quality.
+                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://carrentpk.com/img/slider-bg1.png`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
-
-
-                  </p>
-                  <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}>
-                    {/* <span style={{ borderColor: '#ffd054' }} onClick={() => quoteRef.current.click()} class="btn btn-primary">Get A Quote</span> */}
+                <div class="px-0 card-body d-flex flex-column">
+                  <h2 style={{ fontWeight: "bold" }} class="h4">Car Rental</h2>
+                  <div className="d-flex mb-2">
+                    {/* <div className="ratings">
+                    <span className="mx-1">4.5</span>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                  </div> */}
+                  </div>
+                  <p class="card-text">Explore our Pakistan car rental options with Travel Inn Islamabad to find the perfect ride for your journey.</p>
+                  {/* <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">{`Rs.${e.name=="Standard Package"?"7500":e.name=="Deluxe Package"?"8500":e.name=="Executive Package"?"9500":""}`}</h2>+Tax</p> */}
+                  <div className='d-flex justify-content-start align-items-end' style={{ flex: 1 }}>
+                    {siteData.phone && <a target='_blank' href={`https://wa.me/${siteData.phone.replace("0", "92").replace(" ", "")}?text=How%20can%20I%20book%20a%20guest%20house%3F`} ><span style={{ backgroundColor: "#ffd054", color: "white" }} class="btn">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i>                  </span></a>}
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12 my-2">
-              <div class="card rounded-4 h-100 overflow-hidden shadow-sm"
+            <div className="col-md-4 col-12">
+              <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                {/* <img src="..." class="card-img-top" alt="..."/> */}
-                <div className='pb-3 pt-4 d-flex justify-content-center' style={{ borderRadius: '100%' }}>
-                <p className='pt-4 display-1 h1' ><i style={{ color: '#ffd054' }} class={`fa fa-car fa-xl`}></i></p>
-                </div>
-                <div class="card-body d-flex flex-column text-center">
-                  <h2 style={{ color: '#ffd054' }} class="card-title h5">Car Rental</h2>
-                  <p class="card-text">Exceptional value without compromising on quality.
+                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://res.cloudinary.com/dextrzp2q/image/upload/v1742235480/xuo5wazzioex9poxvqpj.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
-
-
-                  </p>
-                  <div className='d-flex justify-content-center align-items-end' style={{ flex: 1 }}>
-                    {/* <span style={{ borderColor: '#ffd054' }} onClick={() => quoteRef.current.click()} class="btn btn-primary">Get A Quote</span> */}
+                <div class="px-0 card-body d-flex flex-column">
+                  <h2 style={{ fontWeight: "bold" }} class="h4">Guest House</h2>
+                  <div className="d-flex mb-2">
+                    {/* <div className="ratings">
+                    <span className="mx-1">4.5</span>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star rating-color"></i>
+                    <i class="fa fa-star"></i>
+                  </div> */}
+                  </div>
+                  <p class="card-text">Travel Inn Islamabad is a top guesthouse brand that offers luxurious stays to both local and foreign guests.</p>
+                  {/* <p>From <h2 style={{ fontWeight: "bold", display: "contents" }} class="h4">{`Rs.${e.name=="Standard Package"?"7500":e.name=="Deluxe Package"?"8500":e.name=="Executive Package"?"9500":""}`}</h2>+Tax</p> */}
+                  <div className='d-flex justify-content-start align-items-end' style={{ flex: 1 }}>
+                    {siteData.phone && <a target='_blank' href={`https://wa.me/${siteData.phone.replace("0", "92").replace(" ", "")}?text=How%20can%20I%20book%20a%20guest%20house%3F`} ><span style={{ backgroundColor: "#ffd054", color: "white" }} class="btn">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i>                  </span></a>}
                   </div>
                 </div>
               </div>
             </div>
-            
+
+
+
+
+
+
+
 
           </div>
 
-
+          <TopDestinations />
+          <div className="container">
+            <h2 className='py-4' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Types Of Cars We Offer</h2>
+          </div>
+          <CarCards />
           <DestinationList theArr={allPackageData} />
 
           <div className="row justify-content-center">

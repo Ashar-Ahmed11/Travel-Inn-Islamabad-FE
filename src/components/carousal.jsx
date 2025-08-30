@@ -61,7 +61,7 @@ export default function Carousal() {
                                 <div className="">
                                     <div className="d-flex flex-column">
                                         <span className='text-light' style={{ fontFamily: 'Montserrat', fontWeight: "bolder", fontSize: "35.2px", textAlign: 'start' }}>Experience Luxury</span>
-                                        <span className="text-light mb-3" style={{ fontSize: "20.6px", marginBottom: '0px', textAlign: 'start' }}>We offer the best Guest House in Islamabad</span>
+                                        <span className="text-light mb-3" style={{ fontSize: "20.6px", marginBottom: '0px', textAlign: 'start' }}>We offer the best travelling services in Islamabad</span>
                                     </div>
 
 
