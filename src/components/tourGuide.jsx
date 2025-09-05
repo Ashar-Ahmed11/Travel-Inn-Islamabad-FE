@@ -6,6 +6,7 @@ import Footer from './footer'
 import { useKeenSlider } from 'keen-slider/react'
 import TopDestinations from './top-destinations'
 import AppContext from '../context/appContext'
+import AnotherCarousal from './anotherCarousal'
 const TourGuide = () => {
     const { allPackageData } = useContext(AppContext)
     const animation = { duration: 5000, easing: (t) => t }
@@ -32,7 +33,7 @@ const TourGuide = () => {
     })
     return (
         <div>
-            <ContactUsCarousal upackage={"Tour Guide"} image={tourGuide} />
+            <AnotherCarousal text={"Tour Guide"} image={tourGuide} />
             <div className="container my-5">
                 <h2 className='py-2' style={{ fontFamily: 'Montserrat', fontWeight: "bold", color: "#ffd054" }}>Pakistan Top Rated Travel & Tour Guide</h2>
                 {/* <p style={{ opacity: 0.8 }}><b style={{ color: "#BB332F" }}>e-Safar Travel & Tours</b> are one of the leading Tour Operators in Pakistan, providing comprehensive services for groups and individuals from and to the country. We provide you with the flexibility of purchasing a customized independent tour or a packaged group of departure, and service all of your travel & booking questions through our expert consultant staff at all international & domestic tourist attraction locations, all major cities including Northern Areas of Pakistan. Travel includes activities like international & domestic holiday tour programs for honeymoon couples, families, students, large groups, national & multinational companies, foreigners and Pakistan’s living abroad.</p> */}
