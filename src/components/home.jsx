@@ -71,7 +71,7 @@ export default function Home({ theArr, anotherArr }) {
               <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/5c/cd/82/guest-at-northern-areas.jpg?w=1200&h=900&s=1`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+                <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/5c/cd/82/guest-at-northern-areas.jpg?w=1200&h=900&s=1`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
                 <div class="px-0 card-body d-flex flex-column">
                   <h2 style={{ fontWeight: "bold" }} class="h4">Tour Guide</h2>
@@ -97,7 +97,7 @@ export default function Home({ theArr, anotherArr }) {
               <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://carrentpk.com/img/slider-bg1.png`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+                <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://carrentpk.com/img/slider-bg1.png`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
                 <div class="px-0 card-body d-flex flex-column">
                   <h2 style={{ fontWeight: "bold" }} class="h4">Car Rental</h2>
@@ -123,7 +123,7 @@ export default function Home({ theArr, anotherArr }) {
               <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
               // style={{ borderColor: "#ffd054" }}
               >
-                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://res.cloudinary.com/dextrzp2q/image/upload/v1742235480/xuo5wazzioex9poxvqpj.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
+                <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://res.cloudinary.com/jvwuwauz/image/upload/v1742235480/xuo5wazzioex9poxvqpj.jpg`} style={{ height: "250px", objectFit: "cover" }} class="card-img-top rounded-4" alt="..." />
 
                 <div class="px-0 card-body d-flex flex-column">
                   <h2 style={{ fontWeight: "bold" }} class="h4">Guest House</h2>

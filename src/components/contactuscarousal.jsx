@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import machinelearningimg from './coverOne.jpg'
 import machinelearningimgTwo from './coverTwo.jpg'
-// "https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60,w_1700,h_900/https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg"
+// "https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60,w_1700,h_900/https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg"
 const ContactUsCarousal = ({upackage,image}) => {
-    // const cdn = `https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60,w_${window.innerWidth > 750 ? '1700' : '900'},h_${window.innerWidth > 750 ? '900' : '1200'}/`
+    // const cdn = `https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60,w_${window.innerWidth > 750 ? '1700' : '900'},h_${window.innerWidth > 750 ? '900' : '1200'}/`
     // const images = [{img:`${cdn}https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg`,offer:'MACHINE LEARNING',icon:'fa-brain'},
     // {icon:'fa-android',iconTwo:'fa-apple',img: `${cdn}https://images.alphacoders.com/102/1026345.jpg`,offer:'APP DEVELOPMENT'},
     //  {offer:'WEBSITE DEVELOPMENT',icon:'fa-code',img:`${cdn}https://img.freepik.com/premium-vector/abstract-gradient-background-with-grainy-texture-background-wallpaper_753333-65.jpg`},

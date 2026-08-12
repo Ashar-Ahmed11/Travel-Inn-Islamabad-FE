@@ -23,7 +23,7 @@ const DestinationList = ({ theArr, anotherArr }) => {
             <div class="card rounded-0 border-0 h-100 overflow-hidden shadow-none py-3"
             // style={{ borderColor: "#ffd054" }}
             >
-              <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/${e.assets[0].url}`} class="card-img-top rounded-4" alt="..." />
+              <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/${e.assets[0].url}`} class="card-img-top rounded-4" alt="..." />
 
               <div class="px-0 card-body d-flex flex-column">
                 <h2 style={{ fontWeight: "bold" }} class="h4">{e.name}</h2>

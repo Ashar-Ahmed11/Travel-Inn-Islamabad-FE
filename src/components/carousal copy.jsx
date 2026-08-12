@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import machinelearningimg from './coverOne.jpg'
 import machinelearningimgTwo from './coverTwo.jpg'
-// "https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60,w_1700,h_900/https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg"
+// "https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60,w_1700,h_900/https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg"
 const UmrahCarousal = ({upackage,image}) => {
-    // const cdn = `https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60,w_${window.innerWidth > 750 ? '1700' : '900'},h_${window.innerWidth > 750 ? '900' : '1200'}/`
+    // const cdn = `https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60,w_${window.innerWidth > 750 ? '1700' : '900'},h_${window.innerWidth > 750 ? '900' : '1200'}/`
     // const images = [{img:`${cdn}https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg`,offer:'MACHINE LEARNING',icon:'fa-brain'},
     // {icon:'fa-android',iconTwo:'fa-apple',img: `${cdn}https://images.alphacoders.com/102/1026345.jpg`,offer:'APP DEVELOPMENT'},
     //  {offer:'WEBSITE DEVELOPMENT',icon:'fa-code',img:`${cdn}https://img.freepik.com/premium-vector/abstract-gradient-background-with-grainy-texture-background-wallpaper_753333-65.jpg`},
@@ -31,7 +31,7 @@ const UmrahCarousal = ({upackage,image}) => {
                 <div style={{paddingBottom:window.innerWidth>992?"52.941%":"133%"}} class="carousel-inner position-relative">
                     <div style={{top:"0",backgroundColor:'black'}} class="h-100 carousel-item active position-absolute">
                    
-                        <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/https://e-safarnet.web.app${image}`} style={{top:'0px',opacity:0.6,objectFit:'cover'}} class="h-100 d-block w-100 " alt="This interactive picture describes our office environment" />
+                        <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/https://e-safarnet.web.app${image}`} style={{top:'0px',opacity:0.6,objectFit:'cover'}} class="h-100 d-block w-100 " alt="This interactive picture describes our office environment" />
                         <div style={{ top: '0px', bottom: '0px', right: '0px', left: '0px' }} class="carousel-caption h-100 w-100 justify-content-center d-flex align-items-center flex-column">
                          
                             <p className='display-1 p pb-5' style={{fontFamily: 'Montserrat',fontWeight:"bolder"}} >{upackage}</p>

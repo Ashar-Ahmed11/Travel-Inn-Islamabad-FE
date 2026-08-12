@@ -67,13 +67,13 @@ const RoomPackage = ({ theArr }) => {
                                             {/* <img onLoad={() => setimgLoaded(true)} key={element.url} style={{ width: "100%", transform: "scale(1.2)" }} src={element.url} alt="" /> */}
 
                                             <div className='position-relative' style={{ width: "100%", height: '100%', backgroundColor: "#ffffff", paddingBottom: "66.67%" }}>
-                                                {/* <Image style={{ top: '0' }} cloudName="dextrzp2q" className="rounded-4 card-img-top position-absolute w-100 h-100" key={element.url} publicId={element.url} type="fetch">
+                                                {/* <Image style={{ top: '0' }} cloudName="jvwuwauz" className="rounded-4 card-img-top position-absolute w-100 h-100" key={element.url} publicId={element.url} type="fetch">
 
     <Transformation fetchFormat="webp" />
     <Transformation crop="pad" height="1000" width="1000" background="white" />
     <Transformation quality="60" />
 </Image> */}
-                                                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/${e.url}`} className="rounded-4 card-img-top position-absolute w-100 h-100" alt="" />
+                                                <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/${e.url}`} className="rounded-4 card-img-top position-absolute w-100 h-100" alt="" />
 
                                             </div>
                                         </div>
@@ -90,8 +90,8 @@ const RoomPackage = ({ theArr }) => {
 
                                             {/* <img key={element.url} style={{ width: "100%" }} src={element.url} alt="" /> */}
                                             <div style={{ width: "100%" }}>
-                                                <img src={`https://res.cloudinary.com/dextrzp2q/image/fetch/f_webp/q_60/${e.url}`} className="rounded-4 card-img-top" alt="" />
-                                                {/* <Image cloudName="dextrzp2q" className="rounded-4 card-img-top" key={element.url} publicId={element.url} type="fetch">
+                                                <img src={`https://res.cloudinary.com/jvwuwauz/image/fetch/f_webp/q_60/${e.url}`} className="rounded-4 card-img-top" alt="" />
+                                                {/* <Image cloudName="jvwuwauz" className="rounded-4 card-img-top" key={element.url} publicId={element.url} type="fetch">
                                         <Transformation crop="pad" height="1000" width="1000" background="white" />
                                         <Transformation fetchFormat="webp" />
                                         <Transformation quality="60" />

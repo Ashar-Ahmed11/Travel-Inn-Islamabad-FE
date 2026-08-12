@@ -1,0 +1,21 @@
+[debug] [2026-08-12T10:21:29.221Z] ----------------------------------------------------------------------
+[debug] [2026-08-12T10:21:29.222Z] Command:       /usr/local/bin/node /Users/mac/.npm-global/bin/firebase deploy
+[debug] [2026-08-12T10:21:29.222Z] CLI Version:   15.16.0
+[debug] [2026-08-12T10:21:29.222Z] Platform:      darwin
+[debug] [2026-08-12T10:21:29.222Z] Node Version:  v24.15.0
+[debug] [2026-08-12T10:21:29.222Z] Time:          Wed Aug 12 2026 15:21:29 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-08-12T10:21:29.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-12T10:21:30.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-12T10:21:30.111Z] > authorizing via signed-in user (metatech674@gmail.com)
+[debug] [2026-08-12T10:21:30.111Z] [iam] checking project travelsinnislamabad for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-08-12T10:21:30.112Z] Checked if tokens are valid: false, expires at: 1786474204313
+[debug] [2026-08-12T10:21:30.112Z] Checked if tokens are valid: false, expires at: 1786474204313
+[debug] [2026-08-12T10:21:30.112Z] > refreshing access token with scopes: []
+[debug] [2026-08-12T10:21:30.113Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-12T10:21:30.113Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-12T10:21:30.649Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-12T10:21:30.649Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-12T10:21:30.690Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/travelsinnislamabad:testIamPermissions [none]
+[debug] [2026-08-12T10:21:30.690Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/travelsinnislamabad:testIamPermissions  x-goog-user-project=travelsinnislamabad
+[debug] [2026-08-12T10:21:30.691Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travelsinnislamabad:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
